@@ -4,10 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>To Do List</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="container">
-      <h1>Mohammad Mainul Hossain</h1>
+      <div class="todo-app">
+        <h2>To Do List by <span> Mainul. </span></h2>
+        <div class="input-con">
+          <input type="text" id="input-box" placeholder="Add Your Text" />
+          <button id="btn">Add</button>
+        </div>
+        <ul id="list-con"></ul>
+      </div>
     </div>
     <script src="script.js"></script>
   </body>
